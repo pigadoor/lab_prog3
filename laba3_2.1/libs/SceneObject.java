@@ -1,10 +1,10 @@
 package libs;
 
 public abstract class SceneObject {
-    private String Name;
+    private String name;
     
-    public SceneObject(String s) {
-        this.Name = s;
+    public SceneObject(String str) {
+        this.name = str;
         System.out.printf("объект %s создан \n", toString());
     }
 
@@ -16,10 +16,10 @@ public abstract class SceneObject {
     }
 
     public int hashCode() {
-        return this.Name.hashCode();
+        return this.name.hashCode();
     }
 
     public String toString() {
-        return this.Name;
+        return this.name;
     }
 }

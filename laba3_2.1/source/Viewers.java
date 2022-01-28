@@ -5,8 +5,8 @@ import libs.inter.WatchAble;
 
 
 public class Viewers extends LifeObject implements WatchAble{
-    public Viewers(String s) {
-        super(s);
+    public Viewers(String str) {
+        super(str);
     }
 
     @Override

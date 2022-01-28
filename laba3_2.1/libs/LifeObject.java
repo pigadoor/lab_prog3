@@ -5,8 +5,8 @@ import libs.inter.SuplieAble;
 import libs.inter.ThinkAble;
 
 public abstract class LifeObject extends SceneObject implements SpeakAble, ThinkAble, MoveAble, SuplieAble{
-    public LifeObject(String s) {
-        super(s);
+    public LifeObject(String str) {
+        super(str);
     }
     
     @Override

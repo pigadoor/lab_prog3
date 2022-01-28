@@ -8,12 +8,12 @@ public enum Places {
     GOLODAEVKA("селе Голодаевке"),
     NEPROLAZNOE("селе Непролазном");
 
-    private String val;
-    private Places(String s){
-        val = s;
+    private String personValue;
+    private Places(String str){
+        personValue = str;
     }
     public String toString(){
-        return val;
+        return personValue;
     }
 
     public static void listOfPlaces(){

@@ -5,8 +5,8 @@ import libs.inter.PlantAble;
 
 
 public class Sleepwalkers extends LifeObject implements PlantAble{
-    public Sleepwalkers(String s){
-        super(s);
+    public Sleepwalkers(String str){
+        super(str);
     }
 
     @Override
